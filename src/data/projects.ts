@@ -29,7 +29,7 @@ export const projects: Project[] = [
       'Backend FastAPI con worker asíncrono y semáforo de concurrencia; detector de eventos pluggable (PyTorch / ONNX) sobre MobileNetV3-Small con ventana deslizante + NMS; extracción de clips con FFmpeg en stream-copy y en paralelo; registro de modelos versionado y reentrenamiento incremental alimentado por la cola de revisión humana; frontend Next.js 14 + Tailwind. Entrenamiento en GPU vía DirectML.',
     state: 'Plataforma full-stack funcional de extremo a extremo, con pipeline ML versionado y bucle de datos human-in-the-loop.',
     tech: ['Python', 'FastAPI', 'Next.js 14', 'PyTorch', 'ONNX', 'FFmpeg', 'Stripe', 'SQLite / PostgreSQL'],
-    link: 'https://github.com/NotSaam/FlakAI-v2',
+    link: 'https://github.com/NotSaam/FlakAI',
   },
   {
     slug: 'flk0s',
