@@ -15,7 +15,7 @@ export const profile = {
   },
   // Access key de Web3Forms (https://web3forms.com) ligada a samufuentesp@gmail.com.
   // Vacío = el formulario muestra fallback de email. Pega aquí la key para activarlo.
-  contactFormKey: '',
+  contactFormKey: '7787505d-abe7-44f3-99ef-5316cca82f27',
 } as const;
 
 export const about = [
