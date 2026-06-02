@@ -18,18 +18,18 @@ export const projects: Project[] = [
     slug: 'flakai',
     name: 'FLAKAI',
     accent: 'violet',
-    tagline: 'Visión por computador · Deportes · IA',
+    tagline: 'IA · Visión por computador · Deportes · Full-stack',
     summary:
-      'Análisis automático de fútbol desde vídeo: detecta eventos clave, recorta clips y genera informes.',
+      'Plataforma full-stack que analiza partidos de fútbol con IA: sube el vídeo y recibe los clips de cada evento, clasificados automáticamente.',
     description:
-      'Sistema que procesa partidos de fútbol grabados en vídeo y detecta automáticamente eventos clave —goles, saques de banda, saques de esquina y faltas— recortando clips, exportando eventos estructurados y generando informes.',
+      'Plataforma de extremo a extremo que procesa partidos de fútbol grabados en vídeo y detecta automáticamente los eventos clave —goles, córners, saques de banda, faltas, saques de puerta y disparos—, recortando un clip por evento con FFmpeg y clasificándolos por tipo, sin revisión manual. Incluye dashboard de subida con progreso en vivo, API REST, autenticación, multi-equipo, facturación con Stripe y un bucle de entrenamiento human-in-the-loop.',
     objective:
-      'Un producto usable en entorno real (pre-comercial/comercial), priorizando precisión y fiabilidad operativa por encima de la complejidad.',
+      'Convertir horas de edición de vídeo post-partido en un paso desatendido de subir y recoger, con un producto usable en entorno real y un motor de IA que mejora con el uso.',
     architecture:
-      'Pipeline por etapas: diagnóstico de entorno y selección de modo, detección de perfil de cámara, detección de eventos en varias fases, confirmación multi-señal (visual + OCR del marcador + audio) y postproceso con deduplicación. Exporta clips, JSON e informes en PDF.',
-    state: 'En desarrollo activo · diseño integral definido, iterando hacia producto.',
-    tech: ['Python', 'Visión por computador', 'OCR', 'SQLite / DuckDB', 'FFmpeg'],
-    link: 'https://github.com/NotSaam',
+      'Backend FastAPI con worker asíncrono y semáforo de concurrencia; detector de eventos pluggable (PyTorch / ONNX) sobre MobileNetV3-Small con ventana deslizante + NMS; extracción de clips con FFmpeg en stream-copy y en paralelo; registro de modelos versionado y reentrenamiento incremental alimentado por la cola de revisión humana; frontend Next.js 14 + Tailwind. Entrenamiento en GPU vía DirectML.',
+    state: 'Plataforma full-stack funcional de extremo a extremo, con pipeline ML versionado y bucle de datos human-in-the-loop.',
+    tech: ['Python', 'FastAPI', 'Next.js 14', 'PyTorch', 'ONNX', 'FFmpeg', 'Stripe', 'SQLite / PostgreSQL'],
+    link: 'https://github.com/NotSaam/FlakAI-v2',
   },
   {
     slug: 'flk0s',
