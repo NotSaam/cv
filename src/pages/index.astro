@@ -5,6 +5,7 @@ import Section from '../components/Section.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import TechCard from '../components/TechCard.astro';
 import ContactCard from '../components/ContactCard.astro';
+import ContactForm from '../components/ContactForm.astro';
 import { withBase } from '../lib/url';
 import { about, profile } from '../data/profile';
 import { projects } from '../data/projects';
@@ -50,7 +51,10 @@ import { techStack } from '../data/tech';
     </div>
   </Section>
 
-  <Section id="contacto" eyebrow="05 — Contacto" title="Hablemos" lead="¿Construimos algo juntos? Aquí me encuentras.">
+  <Section id="contacto" eyebrow="05 — Contacto" title="Hablemos" lead="¿Construimos algo juntos? Rellena el formulario o escríbeme directamente.">
+    <div class="reveal mb-12">
+      <ContactForm />
+    </div>
     <div class="grid gap-4 sm:grid-cols-3">
       <div class="reveal"><ContactCard icon="⌨︎" label="GitHub" handle="@NotSaam" href={profile.links.github} /></div>
       <div class="reveal"><ContactCard icon="in" label="LinkedIn" handle="/in/notsaam" href={profile.links.linkedin} /></div>

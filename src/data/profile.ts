@@ -13,6 +13,9 @@ export const profile = {
     instagram: 'https://instagram.com/flk0s_',
     email: 'mailto:samufuentesp@gmail.com',
   },
+  // Access key de Web3Forms (https://web3forms.com) ligada a samufuentesp@gmail.com.
+  // Vacío = el formulario muestra fallback de email. Pega aquí la key para activarlo.
+  contactFormKey: '',
 } as const;
 
 export const about = [
