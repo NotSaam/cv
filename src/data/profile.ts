@@ -11,7 +11,7 @@ export const profile = {
     github: 'https://github.com/NotSaam',
     linkedin: 'https://www.linkedin.com/in/notsaam/',
     instagram: 'https://instagram.com/flk0s_',
-    email: '', // p.ej. 'mailto:tu@correo.com'
+    email: 'mailto:samufuentesp@gmail.com',
   },
 } as const;
 
