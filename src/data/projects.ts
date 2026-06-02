@@ -47,7 +47,7 @@ export const projects: Project[] = [
     vision:
       'Un ecosistema de seguridad modular y escalable donde la IA orquesta y conecta operaciones ofensivas y defensivas dentro de un mismo marco.',
     tech: ['Next.js 14', 'FastAPI', 'PostgreSQL', 'SSO HS256', 'OpenTelemetry', 'Caddy', 'Docker'],
-    link: 'https://github.com/NotSaam',
+    link: 'https://github.com/NotSaam/FLK0S-Ecosystem',
   },
 ];
 
