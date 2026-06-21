@@ -2,6 +2,8 @@
 
 Portfolio personal single-page: desarrollo de aplicaciones web + ciberseguridad.
 
+🔗 **Portfolio en vivo:** https://flako-dev.vercel.app/
+
 **Stack:** React 19 · Vite 7 · TypeScript · Tailwind CSS 4 · Framer Motion
 
 ## Arrancar en local
