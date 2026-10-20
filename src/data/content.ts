@@ -76,7 +76,7 @@ export const site = {
   about: {
     paragraphs: [
       "Soy Samuel —Flako—, Full-Stack Engineer. Construyo productos completos de extremo a extremo: del modelo de datos y la API hasta la interfaz, pasando por la IA y la seguridad. Trabajo sobre todo con Python, FastAPI y el ecosistema React/Next.js.",
-      "Mi proyecto de referencia es FLK0S, un ecosistema de operaciones de ciberseguridad con SSO, MFA, RBAC y observabilidad de serie. También entreno IA de visión por computador (KAIR0S) y, por gusto, desarrollo FLAK0S, mi propio sistema operativo desde cero.",
+      "Mi proyecto de referencia es FLK0S, un ecosistema de operaciones de ciberseguridad con SSO, MFA, RBAC y observabilidad de serie. También he creado KAIR0S, una plataforma de rendimiento y vídeo para equipos de fútbol que ya está en producción y, por gusto, desarrollo FLAK0S, mi propio sistema operativo desde cero.",
       "Curso un máster en ciberseguridad: una mirada ofensiva y defensiva que aplico a todo lo que construyo. Código que funciona y, además, resiste.",
     ],
     /** Líneas de la tarjeta tipo terminal. cmd=true → línea de comando */
@@ -127,16 +127,16 @@ export const site = {
       link: "#", // ← EDITAR: demo en vivo si la hay
     },
     {
-      kind: "IA · Visión · Deporte",
+      kind: "SaaS · Deporte · Producto propio",
       title: "KAIR0S",
       problem:
-        "Etiquetar los eventos de un partido a mano es lentísimo → IA que detecta y recorta cada jugada sola.",
+        "El cuerpo técnico cruza a mano GPS, carga, wellness y vídeo en hojas de cálculo → todo en una sola app, del móvil de la plantilla al iPad del staff.",
       description:
-        "Análisis de vídeo de fútbol con IA: subes el partido y el detector marca goles, córners, faltas y saques con su nivel de confianza, y genera los clips listos para revisar y exportar como dataset de entrenamiento.",
-      tags: ["Python", "FastAPI", "Next.js", "PyTorch", "ONNX", "FFmpeg"],
+        "Plataforma de rendimiento y vídeo para equipos de fútbol, en producción: importación del GPS, carga (sRPE y ACWR), wellness, asistencia, partidos, lesiones, alineaciones y etiquetado de vídeo con corte de clips e informe en PDF. Multi-club con los datos de cada club aislados en la base de datos.",
+      tags: ["Next.js", "TypeScript", "Supabase", "FastAPI", "FFmpeg", "Blender"],
       demo: "kairos",
-      repo: "https://github.com/NotSaam/FlakAI",
-      link: "#", // ← EDITAR
+      repo: "https://github.com/NotSaam/kair0s-showcase",
+      link: "https://kair0s.es/r/web",
     },
     {
       kind: "App web · Tiempo real",
