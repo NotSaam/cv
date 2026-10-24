@@ -255,7 +255,7 @@ export default function ProjectCard({ project, featured, onOpen }: ProjectCardPr
         <div className="relative z-10 flex min-w-0 flex-col gap-4 lg:order-1">
           <Header project={project} />
           <h3 className="font-display text-[clamp(2.25rem,6vw,3.5rem)] leading-none font-bold tracking-tight">
-            flk<span className="text-violet">OS</span>
+            Flak<span className="text-violet">0</span>S
           </h3>
           <p className="relative border-l-2 border-violet pl-3.5 text-base font-medium leading-relaxed text-balance text-ink md:text-lg">
             {project.problem}

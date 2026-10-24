@@ -82,7 +82,7 @@ export const site = {
   about: {
     paragraphs: [
       "Soy Samuel —Flako—, Full-Stack Engineer. Construyo productos completos de extremo a extremo: del modelo de datos y la API hasta la interfaz, pasando por la IA y la seguridad. Trabajo sobre todo con Python, FastAPI y el ecosistema React/Next.js.",
-      "Mi proyecto principal es KAIR0S, una plataforma SaaS multi-club de carga, lesiones y vídeo para equipos de fútbol, ya en producción. Antes construí FLK0S, un ecosistema de operaciones de ciberseguridad con SSO, MFA y RBAC, y en paralelo persigo el proyecto soñado: flkOS, mi propio sistema operativo, hecho a mi gusto y optimizado.",
+      "Mi proyecto principal es KAIR0S, una plataforma SaaS multi-club de carga, lesiones y vídeo para equipos de fútbol, ya en producción. Antes construí PHAR0S, un ecosistema de operaciones de ciberseguridad con SSO, MFA y RBAC, y en paralelo persigo el proyecto soñado: Flak0S, mi propio sistema operativo, hecho a mi gusto y optimizado.",
       "Curso un máster en ciberseguridad: una mirada ofensiva y defensiva que aplico a todo lo que construyo. Código que funciona y, además, resiste.",
     ],
     /** Líneas de la tarjeta tipo terminal. cmd=true → línea de comando */
@@ -92,7 +92,7 @@ export const site = {
       { cmd: true, text: "cat stack.txt" },
       { cmd: false, text: "next · react · python · fastapi · postgres · supabase · rust" },
       { cmd: true, text: "ls ~/proyectos" },
-      { cmd: false, text: "kair0s/  flk0s/  reservas/  flkos/" },
+      { cmd: false, text: "kair0s/  phar0s/  reservas/  flak0s/" },
       { cmd: true, text: "status --formacion" },
       { cmd: false, text: "máster en ciberseguridad [█████░░ en curso]" },
     ],
@@ -140,7 +140,7 @@ export const site = {
     },
     {
       kind: "Ciberseguridad · SOC",
-      title: "FLK0S",
+      title: "PHAR0S",
       problem:
         "5 herramientas de seguridad inconexas → un solo ecosistema con SSO, IA y observabilidad e2e.",
       description:
@@ -161,7 +161,7 @@ export const site = {
     },
     {
       kind: "Sistema operativo · El proyecto soñado",
-      title: "flkOS",
+      title: "Flak0S",
       wip: true,
       dream: true,
       problem:
