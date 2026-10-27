@@ -34,7 +34,21 @@ export interface Project {
   dream?: boolean;
   /** Hitos de la hoja de ruta (solo dream). */
   roadmap?: { id: string; label: string; state: "done" | "doing" | "next" }[];
+  /** Estado real del proyecto: lo muestran el HUD lateral y la barra de comandos. */
+  status: { label: string; tone: "live" | "rc" | "mvp" | "wip" };
+  /** Comando corto de la barra (p. ej. "kair0s"). */
+  cmd: string;
 }
+
+/** Secciones en orden de página: las usan el HUD y la barra de comandos. */
+export const sections = [
+  { id: "inicio", index: "00", label: "inicio" },
+  { id: "sobre-mi", index: "01", label: "sobre-mí" },
+  { id: "enfoque", index: "02", label: "enfoque" },
+  { id: "proyectos", index: "03", label: "proyectos" },
+  { id: "habilidades", index: "04", label: "stack" },
+  { id: "contacto", index: "05", label: "contacto" },
+] as const;
 
 export interface SkillGroup {
   area: string;
@@ -135,6 +149,8 @@ export const site = {
       ],
       demo: "kairos",
       featured: true,
+      status: { label: "en producción", tone: "live" },
+      cmd: "kair0s",
       repo: "https://github.com/NotSaam/kair0s-showcase",
       link: "https://kair0s.es/r/web",
     },
@@ -147,6 +163,8 @@ export const site = {
         "Ecosistema unificado de operaciones de ciberseguridad: Blue Team (detección como código, MITRE ATT&CK, conectores SIEM), Red Team con agentes de IA, copiloto con RAG y reporting CVSS, todo bajo un único SSO con MFA y RBAC. Release Candidate v1.0.",
       tags: ["Next.js 14", "FastAPI", "PostgreSQL", "Docker", "OpenTelemetry", "SSO/MFA"],
       demo: "flk0s",
+      status: { label: "RC v1.0", tone: "rc" },
+      cmd: "phar0s",
       repo: "https://github.com/NotSaam/FLK0S-Ecosystem",
     },
     {
@@ -158,6 +176,8 @@ export const site = {
         "Las familias eligen asignatura, franja libre y modalidad (online o presencial) en un asistente paso a paso; el profesor acepta o rechaza desde su panel y cada paso llega por email. Control transaccional contra dobles reservas y cancelación con enlace único.",
       tags: ["Next.js 16", "TypeScript", "Prisma", "Auth.js", "Zod", "Tailwind"],
       demo: "reservas",
+      status: { label: "MVP", tone: "mvp" },
+      cmd: "reservas",
     },
     {
       kind: "Sistema operativo · El proyecto soñado",
@@ -179,6 +199,8 @@ export const site = {
         { id: "M6", label: "Uso diario", state: "next" },
       ],
       demo: "flakos",
+      status: { label: "M2 · escritorio", tone: "wip" },
+      cmd: "flak0s",
     },
   ] satisfies Project[] as Project[],
 
