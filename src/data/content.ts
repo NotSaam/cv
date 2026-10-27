@@ -106,7 +106,7 @@ export const site = {
       { cmd: true, text: "cat stack.txt" },
       { cmd: false, text: "next · react · python · fastapi · postgres · supabase · rust" },
       { cmd: true, text: "ls ~/proyectos" },
-      { cmd: false, text: "kair0s/  phar0s/  reservas/  flak0s/" },
+      { cmd: false, text: "kair0s/  phar0s/  ment0r/  flak0s/" },
       { cmd: true, text: "status --formacion" },
       { cmd: false, text: "máster en ciberseguridad [█████░░ en curso]" },
     ],
@@ -168,8 +168,8 @@ export const site = {
       repo: "https://github.com/NotSaam/FLK0S-Ecosystem",
     },
     {
-      kind: "App web · Reservas",
-      title: "Reserva de clases con profesores",
+      kind: "App web · Reserva de clases",
+      title: "MENT0R",
       problem:
         "Cuadrar horarios profe–familia por chat es un caos → reservas con disponibilidad real y confirmación al instante.",
       description:
@@ -177,7 +177,7 @@ export const site = {
       tags: ["Next.js 16", "TypeScript", "Prisma", "Auth.js", "Zod", "Tailwind"],
       demo: "reservas",
       status: { label: "MVP", tone: "mvp" },
-      cmd: "reservas",
+      cmd: "ment0r",
     },
     {
       kind: "Sistema operativo · El proyecto soñado",
